@@ -5,7 +5,7 @@ from discord.commands import Option
 from discord.ext.commands import has_permissions, MissingPermissions
 from pymongo import MongoClient, results
 
-cluster = MongoClient("mongodb+srv://Slinky:mtrRDORQGLFv4uWH@cluster0.yu7kv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+cluster = MongoClient("mongodblink")
 
 db1 = cluster["Anti-Link"]
 cases = db1["cases"]

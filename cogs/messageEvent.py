@@ -3,7 +3,7 @@ from discord.ext import commands
 from pymongo import MongoClient, results
 from urlextract import URLExtract
 
-cluster = MongoClient("mongodb+srv://Slinky:mtrRDORQGLFv4uWH@cluster0.yu7kv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+cluster = MongoClient("mongodblink")
 
 db1 = cluster["Anti-Link"]
 cases = db1["cases"]
